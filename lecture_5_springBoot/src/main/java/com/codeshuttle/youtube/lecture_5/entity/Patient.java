@@ -9,7 +9,7 @@ import lombok.ToString;
 import java.time.LocalDate;
 
 @Entity
-@ToString
+@ToString  // it is used to override the to string method.
 public class Patient {
 
     @Id
