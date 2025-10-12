@@ -8,7 +8,7 @@ import lombok.ToString;
 
 import java.time.LocalDate;
 
-@Entity
+@Entity  // this is used to make the column in the table.
 @ToString  // it is used to override the to string method.
 public class Patient {
 
